@@ -61,7 +61,7 @@ streamlit run dsa_app.py
 
 ## 📸 Interface
 
-![Interface do App](https://raw.githubusercontent.com/seuusuario/seurepositorio/main/assets/interface_exemplo.png)  
+![interface do App](img/day-trade.png)
 > Exemplo de dashboard com análises gráficas e insights gerados por IA.
 
 ---
