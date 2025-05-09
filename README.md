@@ -64,7 +64,7 @@ streamlit run dsa_app.py
 ![interface do App](img/day-trade.png)
 > Exemplo de dashboard com análises gráficas e insights gerados por IA.
 
----
+```
 
 ## 🧑‍💼 Finalidade do Projeto
 
