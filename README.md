@@ -29,21 +29,33 @@ Aplicativo interativo de análise de ações em tempo real com suporte de **Agen
 
 ## 🧩 Instalação e Execução
 
-1. Instale as dependências com:
+1. Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute o comando abaixo para criar um ambiente virtual:
+
+```bash
+conda create --name dsadeployai python=3.12
+```
+
+2. Ative o ambiente
+
+```bash
+conda activate dsadeployai (ou: source activate dsadeployai)
+```
+
+3. Instale as dependências com
 
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Crie um arquivo `.env` com suas variáveis de ambiente (se necessário para os Agentes ou APIs).
+4. Crie um arquivo `.env` com suas variáveis de ambiente (se necessário para os Agentes ou APIs).
 
-3. Execute o app com:
+5. Execute o app com
 
 ```bash
 streamlit run dsa_app.py
 ```
 
-4. Digite o código (ticker) da ação desejada (ex: `MSFT`, `TSLA`, `AMZN`) e clique em **Analisar**.
+6. Digite o código (ticker) da ação desejada (ex: `MSFT`, `TSLA`, `AMZN`) e clique em **Analisar**.
 
 ---
 
